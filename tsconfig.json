@@ -13,7 +13,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "paths": {
+      "@fastify-sandbox/modules/post": ["modules/post/src/index.ts"],
+      "@fastify-sandbox/modules/user": ["modules/user/src/index.ts"]
+    }
   },
   "files": [],
   "include": [],
